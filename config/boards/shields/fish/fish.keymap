@@ -119,9 +119,9 @@
 
         layer_math {
             bindings = <
-                        &kp N9      &kp N8      &kp N7      &trans              &kp CARET   &kp LT      &kp EQUAL   &kp GT      
-&kp TILDE   &kp N0      &mt LGUI N6 &mt LALT N5 &mt LSHFT N4 &trans             &kp UNDER   &mt RSHFT PLUS &mt RALT MINUS &mt RGUI STAR &kp FSLH &kp PRCNT 
-            &kp DLLR    &kp N3      &kp N2      &kp N1                                      &kp EXCL    &kp QMARK   &kp COLON   &kp SEMI    
+                        &kp N7      &kp N8      &kp N9      &trans              &kp CARET   &kp LT      &kp EQUAL   &kp GT      
+&kp TILDE   &kp N0      &mt LGUI N4 &mt LALT N5 &mt LSHFT N6 &trans             &kp UNDER   &mt RSHFT PLUS &mt RALT MINUS &mt RGUI STAR &kp FSLH &kp PRCNT 
+            &kp DLLR    &kp N1      &kp N2      &kp N3                                      &kp EXCL    &kp QMARK   &kp COLON   &kp SEMI    
                                                 &none       &trans              &trans      &lt 6 RET   
             >;
         };
@@ -164,9 +164,9 @@
 
         layer_system {
             bindings = <
-                        &kp F9      &kp F8      &kp F7      &kp F12             &mo 7       &none       &none       &none       
-&none       &kp F10     &kp F6      &kp F5      &kp F4      &kp F11             &none       &kp RSHFT   &kp RALT    &kp RGUI    &kp RCTRL   &none       
-            &none       &kp F3      &kp F2      &kp F1                                      &none       &none       &none       &none       
+                        &kp F7      &kp F8      &kp F9      &kp F12             &mo 7       &none       &none       &none       
+&none       &kp F10     &kp F4      &kp F5      &kp F6      &kp F11             &none       &kp RSHFT   &kp RALT    &kp RGUI    &kp RCTRL   &none       
+            &none       &kp F1      &kp F2      &kp F3                                      &none       &none       &none       &none       
                                                 &none       &kp LCTRL           &kp RCTRL   &none       
             >;
         };
