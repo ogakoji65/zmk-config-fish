@@ -98,6 +98,11 @@
             key-positions = <18 19>;
             bindings = <&kp LA(F4)>;
         };
+
+        combo_caps_word {
+            key-positions = <12 15>;
+            bindings = <&caps_word>;
+        };
     };
     
 
@@ -166,7 +171,7 @@
             bindings = <
                         &kp F7      &kp F8      &kp F9      &kp F12             &mo 7       &none       &none       &none       
 &none       &kp F10     &kp F4      &kp F5      &kp F6      &kp F11             &none       &kp RSHFT   &kp RALT    &kp RGUI    &kp RCTRL   &none       
-            &none       &kp F1      &kp F2      &kp F3                                      &none       &none       &none       &none       
+            &none       &kp F1      &kp F2      &kp F3                                      &none       &mmv MOVE_DOWN  &none       &none       
                                                 &none       &kp LCTRL           &kp RCTRL   &none       
             >;
         };
